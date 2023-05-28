@@ -1,12 +1,11 @@
 import React from "react";
 import ShinyBox from "./shinyBox";
-import font_Grotesk from "@/utils/font";
-import Image from "next/image";
+
 import { motion } from "framer-motion";
 const Header = () => {
   return (
     <div
-      className={`bg-[#0D0D0D] min-h-[80vh] py-24 px-10 relative flex items-center justify-center ${font_Grotesk.className}`}
+      className={`bg-[#0D0D0D] min-h-[80vh] py-24 px-10 relative flex items-center justify-center `}
     >
 
       <img

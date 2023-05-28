@@ -1,11 +1,10 @@
 import React from 'react'
-import font_Grotesk from '@/utils/font'
 import Image from 'next/image'
 import {motion} from 'framer-motion'
 
 const TradeCross = () => {
   return (
-    <div className={`py-16 z-50 px-10 relative flex flex-col bg-[#0D0D0D]  ${font_Grotesk.className}`}>
+    <div className={`py-16 z-50 px-10 relative flex flex-col bg-[#0D0D0D]`}>
         <motion.div
             initial={{y:100,opacity:0}}
             whileInView={{y:0,opacity:1,transition: {duration: 0.4, ease: "easeOut"}}}

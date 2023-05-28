@@ -1,11 +1,10 @@
  import React from 'react'
- import font_Grotesk from '@/utils/font'
     import Image from 'next/image'
-    import {motion,useScroll} from 'framer-motion'
+    import {motion} from 'framer-motion'
  const Volume = () => {
 
    return (
-     <div className={`py-16 px-10 z-50 relative flex flex-col justify-center items-center bg-[#0D0D0D]  ${font_Grotesk.className}`}>
+     <div className={`py-16 px-10 z-50 relative flex flex-col justify-center items-center bg-[#0D0D0D] `}>
         <h1 className='text-4xl text-[#ACACAE] font-bold'>$12B+ Total Volume</h1>
         <motion.div
         initial={{y: 100,}}
