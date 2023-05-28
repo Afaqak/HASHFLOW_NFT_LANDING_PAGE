@@ -20,7 +20,7 @@ const TradeCross = () => {
             bg-[#1E2A2D] text-[#ACACAE] py-1 px-4 rounded-2xl mt-10'>Learn More</button>
             </div>
             <div className='relative md:0 mt-4'>
-                <div className="absolute filter blur-[120px] h-[200px] w-[200px] top-10 left-10
+                <div className="absolute filter blur-[200px] h-[150px] w-[150px] -top-10 left-10
                 bg-gradient-to-r from-[#7A3949] to-green-700 rounded-xl "></div>
                 <Image src={'/startrek.png'}  width={300} height={300} />
             </div>
